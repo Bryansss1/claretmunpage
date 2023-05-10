@@ -1,0 +1,40 @@
+
+
+.contenedor{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.seccion{
+    position: fixed;
+    width: 100%;
+    background-color: #fcc01a8a ;
+    display:flex ;
+    flex-direction: column;
+    gap: .8rem;
+    padding: 1rem;
+}
+.seccion li{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #373B5F;
+    font-family: 'Libre Baskerville', serif;
+}
+.seccion li{
+
+}
+.quitbotton{
+    position: relative;
+    left: 85%;
+    top: .5rem;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color:#066D32;
+    background-color: rgba(15, 2, 2, 0.123);
+}
+.menu_icon{
+    position: relative;
+    padding-top: 1rem;
+    left: 85%;
+}
