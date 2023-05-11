@@ -1,0 +1,31 @@
+
+.contenedor{
+z-index: -2;
+position: relative;
+bottom: 6rem;
+background-image: url("../assets/bg_mobile/bg-2.png");
+background-size:100% 100%;
+height: 100vh;
+}
+.carousel{
+ padding-top: 11rem;   
+}
+.card{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.card div{
+    font-weight: 400;
+    font-family: 'Montserrat',sans-serif;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #8e94c2;
+    width: 100%;
+}

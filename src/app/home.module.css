@@ -1,8 +1,8 @@
 
 .fontS{
     color: rgb(255, 255, 255);
-    font-size: 1.6rem;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .fontF{
@@ -11,15 +11,16 @@
   /* clip informático */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin-top: .9rem;
     font-style: italic;
     font-family: 'Libre Baskerville', serif;
 }
 
 .images_header{
 margin: auto;
+margin-top: 1rem;
 width: 95%;
-padding-top: 3rem;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -32,8 +33,9 @@ gap: 1.5rem;
     align-items: center;
     flex-direction: column;
 }
+
 .header{
 height: 100vh;
+background-size: 100% 100%;
 background-image: url("../assets/bg_mobile/bg-1.png");
-background-size: 100vh;
 }
