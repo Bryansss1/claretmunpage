@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React, { useEffect,useState} from 'react';
 import Carousel, { consts} from 'react-elastic-carousel';
 import styles from "../styles-components/comite_ruleta.module.css"
 import Image from 'next/image';
@@ -13,8 +13,6 @@ import ronnyImage from "../assets/comite_img/IMG-7715.JPG"
 import profesoraImage from "../assets/comite_img/IMG-7716.JPG"
 import { IconName, FaInstagram} from "react-icons/fa";
 
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-
 const comite=[
     {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
     {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage},
@@ -25,24 +23,26 @@ const comite=[
     {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage},
     {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage},
 ]
+ 
 
-const Comite_ruleta = () => {
+const Comite_ruleta = async () => {
+    
     return (
         <section className={styles.contenedor}>
-        <Carousel className={styles.carousel} itemsToShow={1}>
-        {comite.map(mienbro=>{
-            return(
-                <div className={styles.card} key={mienbro.name}>
-                    <Image height={200} width={200} src={mienbro.image} alt="" />
-                    <div>
-                    <p>{mienbro.name}</p>
-                    <p>{mienbro.cargo}</p>
-                    <FaInstagram style={{fontSize:"1.5rem"}}/>
+           <Carousel className={styles.carousel} itemsToShow={1}>
+            {comite.map(mienbro=>{
+                return(
+                    <div className={styles.card} key={mienbro.name}>
+                        <Image className={styles.card_image} src={mienbro.image} alt="" />
+                        <div>
+                        <p>{mienbro.name}</p>
+                        <p>{mienbro.cargo}</p>
+                        <FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/>
+                        </div>
                     </div>
-                </div>
-            )
-        })}
-     </Carousel>
+                )
+            })}
+         </Carousel>
         </section>
     );
 };

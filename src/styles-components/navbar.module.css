@@ -1,40 +1,52 @@
 
 
 .contenedor{
+    background-image: url("../assets/bg_mobile/bg-1.png");
+    background-size: cover;
     font-family: 'Libre Baskerville', serif;
 }
 
 .seccion{
+    z-index: 10;
     position: fixed;
+    top: 0rem;
     width: 100%;
-    background-color: #fcc01a69 ;
+    background-color: #dba205d8 ;
     display:flex ;
     flex-direction: column;
-    gap: .8rem;
+    gap: .5rem;
     padding: 1rem;
+}
+.seccion li a{
+ transition: all .3s;   
 }
 .seccion li{
     font-weight: 900;
-    font-style: italic;
     font-size: 1.2rem;
-    color: #373B5F;
-    font-family: 'Libre Baskerville', serif;
+    color: #373e7a;
+    font-family: 'Times New Roman', Times, serif;
 }
-.seccion li{
-
+.seccion li a:hover{
+font-size: 1.3rem;
+color:#f6f7f6;
 }
 .quitbotton{
+    transition: all .3s;
     position: relative;
     left: 85%;
-    top: .5rem;
     border-radius: 50%;
     height: 35px;
     width: 35px;
-    color:#066D32;
+    color:hsl(146, 90%, 23%);
     background-color: rgba(15, 2, 2, 0.123);
 }
+.quitbotton:hover{
+    color:#f9fffc;
+cursor: pointer;
+transform: scale(1.2);
+}
 .menu_icon{
+    bottom: 1rem;
     position: relative;
-    padding-top: 1rem;
     left: 85%;
 }

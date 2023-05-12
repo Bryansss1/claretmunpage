@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import styles from "./home.module.css"
 import title_claret from "../assets/icons/claret_1.png"
-import icon_menu from "../assets/icons/apps.svg"
 import Menu_bar from '@/components/Menu_bar'
 import shield_claret from "../assets/icons/escudo.png"
 import Comite_ruleta from '@/components/Comite_ruleta'
 
 export default function Home() {
   return (
-    <main className={styles.header}>
-      <section >
+    <main className={styles.contenedor}>
+      
+      <section  className={styles.header}>
       <Menu_bar/>
 
       <article className={styles.images_header}>
@@ -22,10 +22,8 @@ export default function Home() {
         </div>
 
       </article>
-      
-      <Comite_ruleta/>
-
       </section>
+      <Comite_ruleta/>
     </main>
   )
 }

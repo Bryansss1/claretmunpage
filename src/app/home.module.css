@@ -1,3 +1,14 @@
+.header{
+    position: relative;
+    top: 3rem;
+    background-size:100% 100%;
+    background-image: url("../assets/bg_mobile/bg-1.png");
+}
+
+.contenedor{
+    background-image: url("../assets/bg_mobile/bg-1.png");
+    
+}
 
 .fontS{
     color: rgb(255, 255, 255);
@@ -19,7 +30,6 @@
 
 .images_header{
 margin: auto;
-margin-top: 1rem;
 width: 95%;
 display: flex;
 align-items: center;
@@ -32,10 +42,4 @@ gap: 1.5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.header{
-height: 100vh;
-background-size: 100% 100%;
-background-image: url("../assets/bg_mobile/bg-1.png");
 }

@@ -1,14 +1,14 @@
 
 .contenedor{
-z-index: -2;
-position: relative;
-bottom: 6rem;
+z-index: -1;
 background-image: url("../assets/bg_mobile/bg-2.png");
 background-size:100% 100%;
+bottom: 3.2rem;
 height: 100vh;
 }
 .carousel{
- padding-top: 11rem;   
+    padding-top: 9rem;
+    padding-bottom: 5rem;   
 }
 .card{
 display: flex;
@@ -16,7 +16,12 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 }
+.card_image{
+    max-height: 200px;
+    width: 200px;
+}
 .card div{
+    color:#ece2e2;
     font-weight: 400;
     font-family: 'Montserrat',sans-serif;
     border-bottom-right-radius: 3%;
@@ -29,3 +34,4 @@ flex-direction: column;
     background-color: #8e94c2;
     width: 100%;
 }
+

@@ -18,7 +18,7 @@ const [showBotton,setBotton]=useState(false)
            {showBotton?
            <ul className={styles.seccion}>
             <FontAwesomeIcon onClick={()=>setBotton(!showBotton)} className={styles.quitbotton} icon={faXmark} />
-                <li><Link href={"/"}>Home</Link></li>
+                <li><Link className={styles.b} href={"/"}>Home</Link></li>
                 <li><Link href={"/protocolo"}>Protocolo y prensa</Link></li>
                 <li><Link href={"/reglamento"}>Reglamento</Link></li>
                 <li><Link href={"/comites"}>Comites</Link></li>
