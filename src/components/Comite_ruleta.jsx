@@ -3,18 +3,18 @@ import React, { useEffect,useState} from 'react';
 import Carousel, { consts} from 'react-elastic-carousel';
 import styles from "../styles-components/comite_ruleta.module.css"
 import Image from 'next/image';
-//import danaImage from "../assets/comite_img/IMG-0950.JPG"
-import samImage from "../assets/comite_img/IMG-7714.JPG"
-import camilaImage from "../assets/comite_img/IMG-0935.JPG"
-import andresImage from "../assets/comite_img/IMG-0937.JPG"
-import claudiaImage from "../assets/comite_img/E6CFC975-6F8D-43A5-B523-97296BA34975.JPG"
-import nelvinImage from "../assets/comite_img/203AE573-2434-446A-87F7-E1DD0FFACE4B.JPG"
-import ronnyImage from "../assets/comite_img/IMG-7715.JPG"
-import profesoraImage from "../assets/comite_img/IMG-7716.JPG"
+import danaImage from "../assets/comite_img/danaim.JPG"
+import samImage from "../assets/comite_img/samim.JPG"
+import camilaImage from "../assets/comite_img/camilaim.JPG"
+import andresImage from "../assets/comite_img/andresim.JPG"
+import claudiaImage from "../assets/comite_img/caludiaim.JPG"
+import nelvinImage from "../assets/comite_img/nelvinim.JPG"
+import ronnyImage from "../assets/comite_img/ronnyim.JPG"
+import profesoraImage from "../assets/comite_img/profeim.JPG"
 import { IconName, FaInstagram} from "react-icons/fa";
 
 const comite=[
-    //{name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
+    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
     {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage},
     {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage},
     {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage},
