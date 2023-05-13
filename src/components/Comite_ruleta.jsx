@@ -3,7 +3,7 @@ import React, { useEffect,useState} from 'react';
 import Carousel, { consts} from 'react-elastic-carousel';
 import styles from "../styles-components/comite_ruleta.module.css"
 import Image from 'next/image';
-import danaImage from "../assets/comite_img/IMG-0950.JPG"
+//import danaImage from "../assets/comite_img/IMG-0950.JPG"
 import samImage from "../assets/comite_img/IMG-7714.JPG"
 import camilaImage from "../assets/comite_img/IMG-0935.JPG"
 import andresImage from "../assets/comite_img/IMG-0937.JPG"
@@ -14,7 +14,7 @@ import profesoraImage from "../assets/comite_img/IMG-7716.JPG"
 import { IconName, FaInstagram} from "react-icons/fa";
 
 const comite=[
-    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
+    //{name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
     {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage},
     {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage},
     {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage},
